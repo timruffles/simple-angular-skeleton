@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Angular Simple Skeleton</title>
+</head>
+<body ng-app=simple>
+    <div class=row>
+
+      <h1>Hello {{ something }}</h1>
+      <form>
+        <input ng-model=something ng-init='something = "angular"' >
+      </form>
+
+      <p class='alert-box success'>The above is just to show AngularJS has booted fine. Delete this placeholder HTML and modify <code>app.js</code>.</p>
+
+    </div>
+
+    <script src="vendor/angular/angular.js"></script>
+    <script src="src/app.js"></script>
+</body>
